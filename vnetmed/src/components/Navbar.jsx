@@ -11,7 +11,7 @@ import {
   // faCaretUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { cartData } from "../Redux/actions";
-
+import logo from "./VNETMED.jpg";
 
 export const Nav = styled.div`
   height: 100px;
@@ -64,10 +64,10 @@ const Navbar = () => {
       <Nav>
         <Link to="/">
           <img
-            width="198px"
-            style={{ marginTop: "8px" }}
-            height="150px"
-            src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg"
+            width="180px"
+            style={{ marginTop: "0px",marginLeft:"100px" }}
+            height="10px"
+            src={logo}
             alt="NetMeds"
           />
         </Link>

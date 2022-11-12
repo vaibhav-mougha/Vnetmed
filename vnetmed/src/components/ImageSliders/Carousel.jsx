@@ -30,9 +30,12 @@ export default function Carousel() {
 
   // These are the images used in the slide
   const cards = [
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1654099218_Home_banner2555.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1654017250_Home_bannergdfshd.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1654098984_Home_banner23566.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1667577730_Home_Bannerfdsf.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1667832066_Web_Home_Bannercabbb.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666362102_Home_Bannernmsnew.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666355540_Home_Bannercold.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666355540_Home_Bannercold.jpg"
+
   ];
   return (
     <Box
