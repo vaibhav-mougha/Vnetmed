@@ -3,6 +3,7 @@ import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import logo from "./VNETMED.jpg"
 
 const FooterDiv = styled.div`
   background-color: #fff;
@@ -54,7 +55,8 @@ const Footer = () => {
         <FooterTop>
           <div>
             <img
-              src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg"
+              src={logo}
+              width="180px"
               alt="netmeds"
             />
           </div>

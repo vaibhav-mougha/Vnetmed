@@ -24,7 +24,7 @@ const Navbar2 = () => {
             {({ isOpen }) => (
               <React.Fragment>
                 <MenuButton bg="#24AEB1" as={Button}>
-                  Medicines
+                  Medicine
                   <ChevronDownIcon />
                 </MenuButton>
                 <MenuList>
@@ -48,7 +48,7 @@ const Navbar2 = () => {
           Wellness
         </Link>
         <Link to="/" style={{ fontWeight: "500", paddingTop: "7px" }}>
-          Lab Test
+          Lab Tests
         </Link>
         <Box>
           <Menu>
