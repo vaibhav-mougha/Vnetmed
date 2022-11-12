@@ -27,45 +27,45 @@ export default function Carousel() {
   const cards = [
     {
       id: 1,
-      name: "Head-Shoulders",
+      name: "Himalaya",
       image:
-        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/head-shoulders.jpg?v=15",
-      offer: "UPTO 5% OFF",
+        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/himalaya.jpg?v=14",
+      offer: "Up to 35% off",
     },
     {
       id: 2,
-      name: "Coony",
+      name: "Accu-Chek",
       image:
-        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/coony.jpg?v=15",
-      offer: "UPTO 30% OFF",
+        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/accu-chek.jpg?v=14",
+      offer: "Up to 25% off",
     },
     {
       id: 3,
-      name: "Veet",
+      name: "Dabur",
       image:
-        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/veet.jpg?v=15",
-      offer: "FLAT 5% OFF",
+        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dabur.jpg?v=14",
+      offer: "Up to 30% off",
     },
     {
       id: 4,
-      name: "St-Devence",
+      name: "Manforce",
       image:
-        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/st-dvence.jpg?v=15",
-      offer: "UPTO 30% OFF",
+        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/manforce.jpg?v=14",
+      offer: "Up to 25% off",
     },
     {
       id: 5,
-      name: "Aroma-Magic",
+      name: "Dr-Morepen",
       image:
-        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/aroma-magic.jpg?v=15",
-      offer: "UPTO 25% OFF",
+        "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dr-morepen.jpg?v=14",
+      offer: "Up to 45% off",
     },
     {
       id: 6,
-      name: "Dabur",
+      name: "Cetaphil",
       image:
         "https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dabur.jpg?v=15",
-      offer: "UPTO 27% OFF",
+      offer: "Up to 35% off",
     },
 
     {
@@ -73,7 +73,7 @@ export default function Carousel() {
       name: "Baidyanath",
       image:
         " https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/baidyanath.jpg?v=15",
-      offer: "UPTO 15% OFF",
+      offer: "Up to 35% off",
     },
 
     {
@@ -81,7 +81,7 @@ export default function Carousel() {
       name: "Keral-Ayurveda",
       image:
         "  https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/kerala-ayurveda.jpg?v=15",
-      offer: "UPTO 25% OFF",
+      offer: "Up to 35% off",
     },
   ];
 

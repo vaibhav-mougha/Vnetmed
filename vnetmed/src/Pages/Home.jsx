@@ -26,7 +26,7 @@ const Home = () => {
         >
           <img
             style={{ borderRadius: "10px" }}
-            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1654019142_Web_Mini_Banner.jpg"
+            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1668189701_Mini-banner_web.jpg"
             alt=""
           ></img>
         </Box>
@@ -37,7 +37,7 @@ const Home = () => {
         >
           <img
             style={{ borderRadius: "10px" }}
-            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1643047630_Web_Banner_436x244pxl.jpg"
+            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1668187098_Kapiva_Mobile_home.jpg"
             alt=""
           ></img>
         </Box>
@@ -48,13 +48,13 @@ const Home = () => {
         >
           <img
             style={{ borderRadius: "10px" }}
-            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1654696818_Healthvit_436-px-224px-home-page.jpg"
+            src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1668186994_Secret-Temptation_Mobile_Home_1.jpg"
             alt=""
           ></img>
         </Box>
       </Box>
 
-      {/* ///// Payment Offers ////// */}
+      {/* ///// Payment Partners Offers ////// */}
       <Box
         bg={"#F3F7FB"}
         display={"flex"}
@@ -65,7 +65,7 @@ const Home = () => {
           {" "}
           Payment Partners Offers
         </Text>
-        <Text as={"button"} cursor={"pointer"}>
+        <Text as={"button"} cursor={"pointer"} style={{color:"#EF5C89"}}>
           View All <ChevronRightIcon />
         </Text>
       </Box>
@@ -183,7 +183,7 @@ const Home = () => {
         </Box>
       </Box>
 
-      {/* SHOP BY CATEGORY */}
+      {/* Shop By Category */}
 
       <Box
         bg={"#F3F7FB"}
@@ -195,7 +195,7 @@ const Home = () => {
           {" "}
           Shop By Category
         </Text>
-        <Text as={"button"} cursor={"pointer"}>
+        <Text as={"button"} cursor={"pointer"} style={{color:"#EF5C89"}}>
           View All <ChevronRightIcon />
         </Text>
       </Box>
@@ -210,11 +210,11 @@ const Home = () => {
           bg={"white"}
         >
           <img
-            src="https://www.netmeds.com/images/category/481/thumb/ayush_1.jpg"
+            src="https://www.netmeds.com/images/category/3107/thumb/dressing_1.jpg"
             alt=""
           ></img>
-          <Text fontSize={18} fontWeight={500} pl={74}>
-            Ayush
+          <Text fontSize={18} fontWeight={500} pl={62}>
+            Dressing
           </Text>
         </Box>
 
@@ -227,11 +227,11 @@ const Home = () => {
           bg={"white"}
         >
           <img
-            src="https://www.netmeds.com/images/category/v1/547/thumb/hair_care_2.jpg"
+            src="https://www.netmeds.com/images/category/501/thumb/family_nutrition_1.jpg"
             alt=""
           ></img>
-          <Text fontSize={18} fontWeight={500} pl={61}>
-            Hair Care
+          <Text fontSize={18} fontWeight={500} pl={42}>
+            Family Nutrition
           </Text>
         </Box>
 
@@ -244,11 +244,11 @@ const Home = () => {
           bg={"white"}
         >
           <img
-            src="https://www.netmeds.com/images/category/v1/525/thumb/body_care_2.jpg"
+            src="https://www.netmeds.com/images/category/3141/thumb/respiratory_supplies_1.jpg"
             alt=""
           ></img>
-          <Text fontSize={18} fontWeight={500} pl={61}>
-            Body Care
+          <Text fontSize={18} fontWeight={500} pl={21}>
+            Respiratory Supplies
           </Text>
         </Box>
 
@@ -261,11 +261,11 @@ const Home = () => {
           bg={"white"}
         >
           <img
-            src="https://www.netmeds.com/images/category/624/thumb/treatments_1.jpg"
+            src="https://www.netmeds.com/images/category/3758/thumb/lotions_creams_0.jpg"
             alt=""
           ></img>
-          <Text fontSize={18} fontWeight={500} pl={61}>
-            Treatements
+          <Text fontSize={18} fontWeight={500} pl={41}>
+            Lotions & Creams
           </Text>
         </Box>
 
@@ -300,7 +300,7 @@ const Home = () => {
           {" "}
           Top Brands
         </Text>
-        <Text as={"button"} cursor={"pointer"}>
+        <Text as={"button"} cursor={"pointer"} style={{color:"#EF5C89"}}>
           View All <ChevronRightIcon />
         </Text>
       </Box>
@@ -321,12 +321,32 @@ const Home = () => {
           {" "}
           Health Concerns
         </Text>
-        <Text as={"button"} cursor={"pointer"}>
+        <Text as={"button"} cursor={"pointer"} style={{color:"#EF5C89"}}>
           View All <ChevronRightIcon />
         </Text>
       </Box>
 
-      <Box bg={"#F3F7FB"} display={"flex"} gap={10} p={8}>
+      <Box bg={"#F3F7FB"} display={"flex"} gap={10} p={8} pl={20}>
+
+      <Box
+          boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"}
+          rounded={10}
+          pt={10}
+          pl={45}
+          width={230}
+          height={280}
+          bg={"white"}
+        >
+          <img
+            style={{ marginLeft: "20px" }}
+            src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/lung-care.jpg"
+            alt=""
+          ></img>
+          <Text fontSize={18} fontWeight={500} pt={14} pl={27}>
+            Lung Care
+          </Text>
+        </Box>
+        
         <Box
           boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"}
           rounded={10}
@@ -403,27 +423,10 @@ const Home = () => {
           </Text>
         </Box>
 
-        <Box
-          boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"}
-          rounded={10}
-          pt={10}
-          pl={45}
-          width={230}
-          height={280}
-          bg={"white"}
-        >
-          <img
-            style={{ marginLeft: "20px" }}
-            src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/lung-care.jpg"
-            alt=""
-          ></img>
-          <Text fontSize={18} fontWeight={500} pt={14} pl={27}>
-            Lung Care
-          </Text>
-        </Box>
       </Box>
 
       {/* LIGHTNING DEALS */}
+
       <Box bg={"#F3F7FB"} height={530} mb={10}>
         <Box rounded={15} pt={5} ml={4} height={500} background="white">
           <Box background="white" pl={10}>
@@ -442,6 +445,7 @@ const Home = () => {
           <LightningDeals />
         </Box>
       </Box>
+      
       {/* LIGHTING DEALS */}
 
       <Footer />

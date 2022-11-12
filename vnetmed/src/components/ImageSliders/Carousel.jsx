@@ -33,7 +33,7 @@ export default function Carousel() {
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1667577730_Home_Bannerfdsf.jpg",
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1667832066_Web_Home_Bannercabbb.jpg",
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666362102_Home_Bannernmsnew.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666355540_Home_Bannercold.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666362146_Home_Bannernms20.jpg",
     "https://www.netmeds.com/images/cms/aw_rbslider/slides/1666355540_Home_Bannercold.jpg"
 
   ];

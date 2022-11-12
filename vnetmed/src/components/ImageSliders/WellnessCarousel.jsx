@@ -30,9 +30,11 @@ export default function WellnessCarousel() {
 
   // These are the images used in the slide
   const cards = [
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1654249719_Wellness_home.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1654247920_Wellness_Home_title.jpg",
-    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1645554707_Guide-1680px-x-320_Web.png",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1668190081_miniWellness_web.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1668190483_Huggies_wellness_web.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1668190132_cetaphil__wellness_main_banner_web.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1668190351_Groviva_-wellness-main-banner-web.jpg",
+    "https://www.netmeds.com/images/cms/aw_rbslider/slides/1668190568_littles-web.jpg"
   ];
   return (
     <Box
