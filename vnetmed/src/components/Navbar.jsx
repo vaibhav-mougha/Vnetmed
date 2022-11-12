@@ -11,7 +11,7 @@ import {
   // faCaretUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { cartData } from "../Redux/actions";
-import logo from "./VNETMED.jpg";
+import logo from "./vnetmed.jpg";
 
 export const Nav = styled.div`
   height: 100px;

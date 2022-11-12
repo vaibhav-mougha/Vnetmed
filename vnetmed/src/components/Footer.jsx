@@ -3,7 +3,7 @@ import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import logo from "./VNETMED.jpg"
+import logo from "./vnetmed.jpg"
 
 const FooterDiv = styled.div`
   background-color: #fff;
@@ -69,7 +69,7 @@ const Footer = () => {
         <hr />
         <FooterContainer>
           <div>
-            <h4>COMPANY</h4>
+            <h4 >COMPANY</h4>
             <FooterComDiv>
               <p>About Netmeds</p>
               <p>Customers Speak</p>
