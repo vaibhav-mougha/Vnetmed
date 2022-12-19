@@ -1,5 +1,4 @@
-# able-harmony-1862
-## Welcome to VNETMED
+# Welcome to VNETMED
 VNETMED is one of India’s most trusted pharmacies, dispensing quality medicines at reasonable prices . Here we can buy and send medicines from any corner of the country - with just a few clicks of the mouse.
 
 ## [Deployed URL]( https://timely-pothos-6168ff.netlify.app/)
