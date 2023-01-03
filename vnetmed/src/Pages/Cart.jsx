@@ -49,7 +49,7 @@ const Cart = () => {
     };
     axios
       .patch(
-        `https://netmeds-server-data.herokuapp.com/api/cart/${id}`,
+        `https://json-server-main.vercel.app/cart/${id}`,
         increase
       )
       .then((res) => {
@@ -63,7 +63,7 @@ const Cart = () => {
 
   const handleDelete = (el) => {
     axios
-      .delete(`https://netmeds-server-data.herokuapp.com/api/cart/${el.id}`)
+      .delete(`https://json-server-main.vercel.app/cart/${el.id}`)
       .then((res) => {
         dispatch(cartData());
       })

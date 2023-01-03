@@ -32,10 +32,10 @@ const AddCart = (mydata) => {
       qty: mydata.prodData.qty,
     };
     axios.post(
-      "https://netmeds-server-data.herokuapp.com/api/cart",
+      "https://json-server-main.vercel.app/cart",
       finallyPost
     );
-    // alert("Item Added to the Cart")
+    alert("Item Added to the Cart")
     setFlag(true);
 
     dispatch(cartData());

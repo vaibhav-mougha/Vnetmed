@@ -18,7 +18,7 @@ const ProductPage = (id) => {
     console.log(user_id);
 
     axios({
-      url: `https://netmeds-server-data.herokuapp.com/api/data/${user_id}`,
+      url: `https://json-server-main.vercel.app/data/${user_id}`,
       method: "GET",
     })
       .then((res) => {
@@ -30,7 +30,7 @@ const ProductPage = (id) => {
       });
 
     axios
-      .post("https://netmeds-server-data.herokuapp.com/api/cart", data)
+      .post("https://json-server-main.vercel.app/cart", data)
       .then((res) => {
         alert("post success");
       })

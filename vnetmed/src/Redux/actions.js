@@ -53,7 +53,7 @@ export const takeMeToCart = (data) => ({
 
 export const fetchSupplement = (payload) => async (dispatch) => {
   axios({
-    url: "https://netmeds-server-data.herokuapp.com/api/data",
+    url: "https://json-server-main.vercel.app/data",
     method: "GET",
     params: {
       q: "vitaminsAndSuppliments",
@@ -73,7 +73,7 @@ export const fetchSupplement = (payload) => async (dispatch) => {
 
 export const fetchNewOnNetmeds = (payload) => async (dispatch) => {
   axios({
-    url: "https://netmeds-server-data.herokuapp.com/api/topProducts",
+    url: "https://json-server-main.vercel.app/topProducts",
     method: "GET",
     params: {
       q: "newnetmeds",
@@ -92,7 +92,7 @@ export const fetchNewOnNetmeds = (payload) => async (dispatch) => {
 
 export const fetchCovidEssentials = (payload) => async (dispatch) => {
   axios({
-    url: "https://netmeds-server-data.herokuapp.com/api/data",
+    url: "https://json-server-main.vercel.app/data",
     method: "GET",
     params: {
       q: "covidEssentials",
@@ -111,7 +111,7 @@ export const fetchCovidEssentials = (payload) => async (dispatch) => {
 
 export const fetchBestSeller = (payload) => async (dispatch) => {
   axios({
-    url: "https://netmeds-server-data.herokuapp.com/api/topProducts",
+    url: "https://json-server-main.vercel.app/topProducts",
     method: "GET",
     params: {
       q: "bestSeller",
@@ -131,7 +131,7 @@ export const fetchBestSeller = (payload) => async (dispatch) => {
 
 export const fetchData = (payload, page, q, costOrder) => {
   return (dispatch) => {
-    axios("https://netmeds-server-data.herokuapp.com/api/data", {
+    axios("https://json-server-main.vercel.app/data", {
       params: {
         ...payload,
         // _page: page,
@@ -150,7 +150,7 @@ export const fetchData = (payload, page, q, costOrder) => {
 };
 
 export const cartData = (payload) => (dispatch) => {
-  axios("https://netmeds-server-data.herokuapp.com/api/cart")
+  axios("https://json-server-main.vercel.app/cart")
     .then((res) => {
       console.log(res.data);
       let cartAction = takeMeToCart(res.data);
